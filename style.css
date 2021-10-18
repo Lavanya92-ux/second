@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300&display=swap');
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+#navbar{
+    position: sticky;
+    top: 0%;
+    left: 0%;
+    z-index: 100;
+    padding: .5rem 5rem; 
+    box-shadow: 5px 5px 20px rgba(0, 0,0 .5);
+    background: black;
+}
+.navbar .navbar-brand{
+    font-size: 25px;
+    font-weight: 800;
+    color: chartreuse !important;
+}
+#navbarSupportedContent a{
+    color: cornsilk !important;
+    border-bottom: 2px solid transparent;
+}
+#navbarSupportedContent a:hover{
+    border-bottom: 2px solid #29f700 !important;
+}
+#navbarSupportedContent button{
+    background: chartreuse !important;
+}
+section{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+/****home***/
+#home{
+    background: linear-gradient(rgba(0,0,0,.3),rgba(0,0,0,.8)),url(nasaimage.jpeg);
+    background-size: cover;
+    background-position: center
+}
+#home h5{
+    font-size: 50px;
+    color: blanchedalmond !important;
+    letter-spacing: 3px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}#home p{
+    font-size: 20px;
+    color: coral !important;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    position: relative;
+}
